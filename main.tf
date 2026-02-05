@@ -1,14 +1,14 @@
 
 terraform {
   required_providers {
-    lt_description = { 
+    lt-details = { 
       source  = "registry.io/hashicorp/lt"
       version = "1.0"
     }
   }
 }
 
-resource "lt_description" "role" {
+resource "lt-details" "role" {
   name     = "LT Chin"
   title    = "Sr DevOps Engineer"
 }
