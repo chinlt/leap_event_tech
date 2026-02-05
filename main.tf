@@ -1,8 +1,8 @@
 
 terraform {
   required_providers {
-    ltwork = { 
-      source  = "registry.terraform.io/hashicorp/lt"
+    lt_description = { 
+      source  = "registry.io/hashicorp/lt"
       version = "1.0"
     }
   }
