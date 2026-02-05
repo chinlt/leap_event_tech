@@ -1,4 +1,4 @@
-provider[registry.terraform.io/hashicorp/lt]
+provider = registry.terraform.io/hashicorp/lt
 
 resource "lt_description" "role" {
   name     = "LT Chin"
