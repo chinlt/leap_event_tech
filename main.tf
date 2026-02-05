@@ -1,14 +1,14 @@
 
 terraform {
   required_providers {
-    hashicorp = { 
+    local = { 
       source  = "registry.io/hashicorp/lt"
       version = "1.0"
     }
   }
 }
 
-resource "lt-details" "role" {
+resource "local" "role" {
   name     = "LT Chin"
   title    = "Sr DevOps Engineer"
 }
