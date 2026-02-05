@@ -1,8 +1,8 @@
-###provider = registry.terraform.io/hashicorp/lt
 
 terraform {
   required_providers {
       source  = "hashicorp/lt"
+      version = "1.0"
       }
 }
 
