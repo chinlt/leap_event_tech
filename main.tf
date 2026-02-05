@@ -1,7 +1,7 @@
 
 terraform {
   required_providers {
-    lt-details = { 
+    hashicorp = { 
       source  = "registry.io/hashicorp/lt"
       version = "1.0"
     }
