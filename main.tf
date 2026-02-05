@@ -1,9 +1,11 @@
 
 terraform {
   required_providers {
-      source  = "hashicorp/lt"
+    ltwork = { 
+      source  = "registry.io/hashicorp/lt"
       version = "1.0"
-      }
+    }
+  }
 }
 
 resource "lt_description" "role" {
